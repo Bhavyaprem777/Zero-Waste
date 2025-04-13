@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# ZeroWaste – AI Powered Geo-Intelligent Food Donation and Rescue System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Selected Domain:
+**Web Development**
 
-## Available Scripts
+## Problem Statement / Use Case:
+**Problem Statement:**  
+“ZeroWaste – AI Powered Geo-Intelligent Food Donation & Rescue System”
 
-In the project directory, you can run:
+This project aims to reduce food wastage by creating a platform where food donors (households, restaurants, caterers, and canteens) can easily donate excess food to verified recipients (NGOs, shelters, and individuals in need). The platform uses AI insights and real-time geolocation for optimized food rescue and logistics management.
 
-### `npm start`
+## Abstract / Problem Description:
+**Objective:**  
+Develop a scalable, intelligent web platform that minimizes food wastage by connecting food donors with verified recipients using real-time geolocation, AI-driven insights, and automated logistics management.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This platform will facilitate:
+**Donor Panel:** Donors can register, post food donations, and track the donation lifecycle.
+- **Receiver (NGO) Panel:** Recipients can register, accept donations, and manage food requests.
+- **Admin Panel:** Admins can manage all users, monitor donations, and oversee platform operations.
+- **Geo-Intelligent Insights:** The platform uses real-time geolocation to match donors and recipients effectively based on proximity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Key Features:
+- **Food Donation Posting:** Donors can easily post available food with details such as quantity and expiration.
+- **Real-Time Tracking:** AI insights for food donation status and delivery tracking.
+- **Automated Logistics:** A seamless process for food collection and delivery.
 
-### `npm test`
+## Tech Stack Used:
+- **Frontend:** React.js
+- **Backend:** Node.js, Express
+- **Database:** FireBase
+- **Geolocation:** OpenStreetMap using Leaflet
+## AI Model:
+This project leverages the **UARI** (User Attention Recognition Interface) model for food quantity estimation based on images uploaded by donors. The AI model utilizes machine learning algorithms to process and analyze food images and optimize the donation process. It also helps in matching donors with recipients efficiently based on real-time needs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Note for Accessing the Application
 
-### `npm run build`
+To view the homepage of the application on the deployed Vercel link, please follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Vercel Link:** [ZeroWaste – AI Powered Food Donation Platform](https://zero-waste-swart.vercel.app)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Login Credentials:**  
+   - **Email:** bhavyasreechebrolu@gmail.com  
+   - **Password:** 72117211  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   These credentials are for Firebase authentication to access the platform.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Explanation:
+This project is designed to help reduce food wastage by connecting donors with verified recipients through an AI-powered, geo-intelligent system. The web platform features user-friendly interfaces for donors and NGOs to register, post donations, and track the lifecycle of donations. The AI-powered system ensures optimized logistics and efficient food rescue based on real-time data.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Screenshots:
 
-## Learn More
+![Donor Panel - 1](./images/Image1.png)
+![Donor Panel - 2](./images/Image2.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Receiver Panel - 1](./images/Image3.png)
+![Receiver Panel - 2](./images/Image4.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Admin Panel - 1](./images/Image5.png)
+![Admin Panel - 2](./images/Image6.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Geo-location - 1](./images/Image7.png)
+![Geo-location - 2](./images/Image8.png)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![AI Model Insights - 1](./images/Image9.png)
+![AI Model Insights - 2](./images/Image10.png)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
